@@ -1,10 +1,12 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using FluentAssertions;
 
 namespace OopCatExercise.Tests;
 
 public class CatTests
 {
+
     [Test]
     public void DomesticCat_Should_Be_Awake_By_Default()
     {
@@ -19,6 +21,7 @@ public class CatTests
         domesticCat.GoToSleep();
         domesticCat.IsAsleep.Should().Be(true);
     }
+
 
     [Test]
     public void DomesticCat_Should_Be_Awake_When_WakeUp_Is_Called()
@@ -35,6 +38,7 @@ public class CatTests
         DomesticCat domesticCat = new();
         domesticCat.Setting.Should().Be("domestic");
     }
+
 
     [Test]
     public void DomesticCat_AverageHeight_Should_Be_Correct()
@@ -71,3 +75,4 @@ public class CatTests
         domesticCat.Eat().Should().Be("Purrrrrrr");
     }
 }
+

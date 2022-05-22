@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1700.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopCatExercise", "OopCatExercise\OopCatExercise.csproj", "{0D0BA211-50CF-4286-88A2-0AB7CAF51B65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopCatExercise", "OopCatExercise\OopCatExercise.csproj", "{0D0BA211-50CF-4286-88A2-0AB7CAF51B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopCatExercise.Tests", "OopCatExercise.Tests\OopCatExercise.Tests.csproj", "{451B5BD7-F449-40CE-BCE3-31332CC4E0A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopCatExercise.Tests", "OopCatExercise.Tests\OopCatExercise.Tests.csproj", "{451B5BD7-F449-40CE-BCE3-31332CC4E0A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
